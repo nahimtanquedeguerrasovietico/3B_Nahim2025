@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --laranja-claro: #FF862A;
+    --laranja-claro: #df2d2d;
 }
 
 body {
@@ -21,7 +21,7 @@ section {
 
 
 .nav-link {
-    color: #CB6D43;
+    color: hsl(0, 74%, 48%);
     font-weight: 600;
 }
 
@@ -102,7 +102,7 @@ h2 {
 }
 
 #galeria {
-    background-color: #FAF4F4;
+    background-color: #f3afaf;
 
 }
 
@@ -120,7 +120,7 @@ h2 {
 }
 
 .formulario {
-    background-color: #ffffff;
+    background-color: #95e2e2;
     padding: 2rem;
     /* Espaçamento interno dentro do formulário */
     border-radius: 10px;
@@ -131,12 +131,12 @@ h2 {
 }
 
 .formulario button {
-    background-color: #CB6D43;
+    background-color: #43cb70;
     border: none;
     font-weight: bold;
 }
 
 /* chama classe do bootstrap para modificar a cor */
 .form-control {
-    background-color: #F1EDEF;
+    background-color: #F5F5DC;
 }
