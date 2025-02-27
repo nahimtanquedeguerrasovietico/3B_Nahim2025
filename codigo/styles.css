@@ -2,26 +2,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --laranja-claro: #df2d2d;
+    --laranja-claro: #FF862A;
 }
 
 body {
     font-size: 1rem;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
 }
 
 header {
     background-color: #ffffff;
 }
 
-
 section {
     padding-bottom: 5rem;
 }
 
-
 .nav-link {
-    color: hsl(0, 74%, 48%);
+    color: #CB6D43;
     font-weight: 600;
 }
 
@@ -47,14 +45,12 @@ section {
     height: auto;
 }
 
-
 .esquerda-conteudo {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 1rem;
 }
-
 
 .botao-inicio {
     background-color: var(--laranja-claro);
@@ -64,14 +60,14 @@ section {
     /* Convertido para em aumenta o tamanho da fonte por tabela*/
     height: 3em;
     /* Convertido para em */
-    align-content: center;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .display-4 {
     text-shadow: -5px 5px var(--laranja-claro);
 }
-
 
 #tropicalia {
     position: relative;
@@ -93,7 +89,6 @@ section {
     /* Garante que o conteúdo fica acima das imagens do background */
 }
 
-
 h2 {
     font-family: 'Lemon', serif;
     font-size: 2.5em;
@@ -102,8 +97,7 @@ h2 {
 }
 
 #galeria {
-    background-color: #f3afaf;
-
+    background-color: #FAF4F4;
 }
 
 .fundo-galeria {
@@ -116,11 +110,10 @@ h2 {
     background-size: cover;
     padding: 4rem 0;
     /* Espaçamento interno para a seção de contato */
-
 }
 
 .formulario {
-    background-color: #95e2e2;
+    background-color: #ffffff;
     padding: 2rem;
     /* Espaçamento interno dentro do formulário */
     border-radius: 10px;
@@ -131,12 +124,12 @@ h2 {
 }
 
 .formulario button {
-    background-color: #43cb70;
+    background-color: #CB6D43;
     border: none;
     font-weight: bold;
 }
 
 /* chama classe do bootstrap para modificar a cor */
 .form-control {
-    background-color: #F5F5DC;
+    background-color: #F1EDEF;
 }
