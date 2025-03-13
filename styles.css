@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color:#ffc291;
+    background-color:#fabd8b;
 }
 
 section {
@@ -97,7 +97,7 @@ h2 {
 }
 
 #galeria {
-    background-color: #EEE8AA;
+    background-color: #faf9f0;
 }
 
 .fundo-galeria {
@@ -107,13 +107,13 @@ h2 {
 
 #contato {
     background-image: url('img/4965007.jpg');
-    background-size: cover;
+    background-size: cover;a
     padding: 4rem 0;
     /* Espaçamento interno para a seção de contato */
 }
 
 .formulario {
-    background-color: #EEE8AA;
+    background-color: #fffef6;
     padding: 2rem;
     /* Espaçamento interno dentro do formulário */
     border-radius: 10px;
@@ -131,5 +131,5 @@ h2 {
 
 /* chama classe do bootstrap para modificar a cor */
 .form-control {
-    background-color: #EEE8AA;
+    background-color: #f3f3f3;
 }
