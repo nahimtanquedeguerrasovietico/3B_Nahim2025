@@ -97,7 +97,7 @@ h2 {
 }
 
 #galeria {
-    background-color: #FAF4F4;
+    background-color: #EEE8AA;
 }
 
 .fundo-galeria {
@@ -113,7 +113,7 @@ h2 {
 }
 
 .formulario {
-    background-color: #ffffff;
+    background-color: #EEE8AA;
     padding: 2rem;
     /* Espaçamento interno dentro do formulário */
     border-radius: 10px;
@@ -131,5 +131,5 @@ h2 {
 
 /* chama classe do bootstrap para modificar a cor */
 .form-control {
-    background-color: #F1EDEF;
+    background-color: #EEE8AA;
 }
